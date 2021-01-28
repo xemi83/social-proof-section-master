@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root{
+--VeryDarkMagenta: hsl(300, 43%, 22%);
+--SoftPink: hsl(333, 80%, 67%);
+
+--DarkGrayishMagenta: hsl(303, 10%, 53%);
+--LightGrayishMagenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    background-color: rgb(240, 240, 240);
+}
+
+.wrapper{
+    background-color: white;
+    width:1440px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_section{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.info{
+    width: 40%;
+    color: var(--VeryDarkMagenta);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 0.99;
+}
+
+.text_info{
+    padding-top: 8px;
+    line-height: 1.5;
+}
+
+.stars{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.rating{
+    color: var(--VeryDarkMagenta);
+    font-weight: 700;
+    background-color: var(--LightGrayishMagenta);
+    width: 80%;
+    height: 24%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding-left: 30px;
+}
+
+.r1{
+    margin-right: 100px;
+}
+
+.r2{
+    margin-right: 50px;
+}
+
+.r3{
+    margin-right: 0px;
+}
+
+.bottom_section{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.person{
+    width: 32%;
+    background-color: olive;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
