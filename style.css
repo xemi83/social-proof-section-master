@@ -103,7 +103,16 @@ body {
     margin-right: 0px;
 }
 
+.star-icon{
+    padding-right: 9px;
+}
+
+.star-icon-last{
+    padding-right: 30px;
+}
+
 .bottom_section{
+    padding-top: 40px;
     height: 300px;
     display: flex;
     flex-direction: row;
@@ -112,7 +121,57 @@ body {
 
 .person{
     width: 32%;
-    background-color: olive;
+    height: 240px;
+    background-color: var(--VeryDarkMagenta);
+    border-radius: 10px;
+    padding: 50px 35px 50px 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p2{
+    margin-top: 13px;
+}
+
+.p3{
+    margin-top: 26px;
+}
+
+.person-details{
+    display: flex;
+    flex-direction: row;
+}
+
+.person-photo{
+    padding-right: 18px;
+}
+
+.person-photo img{
+    border-radius: 50%;
+    width: 44px;
+}
+
+.person-name-position{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.person-name{
+    color: var(--LightGrayishMagenta);
+    font-weight: 500;
+}
+
+.person-position{
+    color: var(--SoftPink);
+    font-weight: 500;
+}
+
+.person-description{
+    padding-top: 25px;
+    color: var(--LightGrayishMagenta);
+    font-size: 13px;
+
 }
 
 .attribution {
